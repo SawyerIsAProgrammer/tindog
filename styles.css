@@ -1,0 +1,199 @@
+/* All */
+section {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* general section color themes */
+.colored-section {
+    color: #fff;
+    background-color: #ff4c68;
+}
+
+.white-section {
+    background-color: #fff;
+}
+
+/* general text styles */
+p {
+    color: #8f8f8f;
+}
+
+.big-heading {
+    color: #fff;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+/* title section and cta section have the same styles for the same download buttons */
+.Download {
+    margin: 1rem 1rem 0 0;
+}
+
+/* Title Section */
+#title {
+    padding: 3% 15% 5%;
+}
+
+/* navigation bar */
+.narbar-outter-div {
+    padding-bottom: 4.5rem;
+}
+
+a.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+a.nav-link {
+    font-size: 1.25rem; 
+    font-weight: 300;
+}
+
+/* title text part */
+.title-text {
+    margin-bottom: 3.5rem;
+}
+
+/* title image */
+#title img {
+    position: absolute;
+    right: 22%;
+    transform: rotate(20deg);
+    width: 20%;
+}
+
+
+
+/* Features Section */
+#features {
+    padding: 7% 15%;
+    position: relative;
+}
+
+#features h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+#features i {
+    color: #ef8172;
+    font-size: 4rem;
+    margin-bottom: 1.25rem;
+}
+
+#features i:hover {
+    color: #ff4c68;
+}
+
+
+#features .col-lg {
+    padding: 4.5%;
+}
+
+
+/* Testimonial Section */
+#testimonials {
+    background-color: #ef8172;
+}
+
+#testimonials .carousel-item{
+    padding: 7% 15%;
+}
+
+#testimonials h2 {
+    font-size: 3.1rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+#testimonials img{
+    border-radius: 50%;
+    margin: 20px;
+    width: 10%;
+}
+
+
+/* Press Section */
+#press {
+    padding-bottom: 3%;
+    background-color: #ef8172;
+}
+
+#press img {
+    margin: 20px 20px 50px;
+    width: 15%;
+}
+
+
+/* Pricing Section */
+#pricing {
+    padding: 7% 7%;
+}
+
+#pricing button {
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+#pricing .col-lg {
+    padding: 3%;
+}
+
+
+/* Call to Action Section */
+#cta {
+    padding: 8% 15%;
+}
+
+
+/* Footer Section */
+#footer {
+    padding: 6%;
+}
+
+#footer i {
+    color: #000;
+    padding: 0.9rem;
+}
+
+#footer p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    padding: 0.8rem;
+}
+
+
+/* Media Query */
+/* media query for title section */
+@media (max-width: 992px) {
+    #title {
+        text-align: center;
+    }
+    #title img {
+        position: static;
+        transform: rotate(0);
+        width: 50%;
+    }
+    #testimonials img {
+        width: 20%;
+    }
+}
+
+@media (max-width: 456px) {
+    #title img {
+        width: 70%;
+    }
+    .big-heading {
+        font-size: 2.5rem;
+    }
+    #testimonials h2 {
+        font-size: 2rem;
+    }
+}
